@@ -9,10 +9,6 @@ import { handlerNotesCreate, handlerNotesGet } from "./api/notes.js";
 import { handlerUsersCreate, handlerUsersGet } from "./api/users.js";
 
 const __dirname = path.resolve();
-function unused() {
-  // this function does nothing
-  // and is called nowhere
-}
 
 if (!config.api.port) {
   console.error("PORT environment variable is not set");
